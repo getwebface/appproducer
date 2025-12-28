@@ -27,11 +27,15 @@ const SettingsPanel = React.lazy(() => import('../components/Modules/SettingsPan
 const EmptyState = React.lazy(() => import('../components/Modules/EmptyState'));
 const GhostTable = React.lazy(() => import('../components/Modules/GhostTable'));
 
+// ROUTING
+const PageRouter = React.lazy(() => import('../components/Core/PageRouter'));
+
 export const componentRegistry: ComponentMap = {
   // Shell
   "UniversalNavbar": UniversalNavbar,
   "UniversalFooter": UniversalFooter,
   "SidebarLayout": SidebarLayout,
+  "PageRouter": PageRouter,
   
   // Showcase
   "Hero": Hero,
