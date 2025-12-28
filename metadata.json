@@ -1,0 +1,5 @@
+{
+  "name": "Universal App Factory",
+  "description": "A Server-Driven UI (SDUI) platform that renders unique applications based on domain name using Supabase and Cloudflare.",
+  "requestFramePermissions": []
+}
